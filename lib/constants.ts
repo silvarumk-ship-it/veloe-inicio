@@ -15,14 +15,13 @@ Barueri - SP, CEP 06455-030`
 };
 
 // --------------------------
-// NOMES DAS IMAGENS (chaves únicas)
-// Salve os arquivos com esses nomes exatos dentro da pasta /public
+// NOMES DAS IMAGENS — COM BARRA INICIAL /
 // --------------------------
 export const IMAGENS = {
-  logoPrincipal: "img-VEL-789452.png",
-  tagVeloe: "img-VEL-236791.png",
-  iconeWhatsapp: "ico-VEL-901456.png",
-  fundoPagina: "img-VEL-564823.jpg"
+  logoPrincipal: "/img-VEL-789452.png",
+  tagVeloe: "/img-VEL-236791.png",
+  iconeWhatsapp: "/ico-VEL-901456.png",
+  fundoPagina: "/img-VEL-564823.jpg"
 };
 
 // --------------------------
