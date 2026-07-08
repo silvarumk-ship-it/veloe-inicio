@@ -2,8 +2,8 @@
   "name": "veloe-central-atendimento",
   "version": "1.0.0",
   "private": true,
-  "description": "Central de atendimento e contratação de TAG Veloe — rápido, seguro e transparente",
-  "author": "Sua Equipe",
+  "description": "Central de atendimento e serviços TAG Tecnologia para o Sistema Financeiro S.A. – Soluções rápidas, seguras e transparentes",
+  "author": "TAG TECNOLOGIA PARA O SISTEMA FINANCEIRO S.A.",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
