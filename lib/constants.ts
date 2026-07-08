@@ -6,7 +6,7 @@
 export const CONTATO = {
   razaoSocial: "TAG TECNOLOGIA PARA O SISTEMA FINANCEIRO S.A.",
   cnpj: "31.345.107/0001-03",
-  whatsapp: "5531996487583", // Formato correto para funcionar no link
+  whatsapp: "5531996487583",
   telefone: "(31) 99648-7583",
   email: "atendimento@tagtecnologia.com.br",
   enderecoCompleto: `Alameda Xingu, 512, Edifício Evolution, 3º, 4º e 20º andares
@@ -15,7 +15,7 @@ Barueri - SP, CEP 06455-030`
 };
 
 // --------------------------
-// NOMES DAS IMAGENS — COM BARRA INICIAL /
+// CAMINHOS DAS IMAGENS
 // --------------------------
 export const IMAGENS = {
   logoPrincipal: "/img-VEL-789452.png",
@@ -25,7 +25,7 @@ export const IMAGENS = {
 };
 
 // --------------------------
-// LINKS DO SITE E ATENDIMENTO
+// LINKS
 // --------------------------
 export const LINKS = {
   politicaPrivacidade: "/politica-de-privacidade",
