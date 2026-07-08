@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { IMAGENS, LINKS } from "@/lib/constants";
 
 export default function Hero() {
@@ -21,7 +20,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-veloe-green hover:bg-green-600 text-white px-6 py-3 rounded-lg font-medium text-base transition-all shadow-md hover:shadow-lg"
           >
-            <Image
+            <img
               src={IMAGENS.iconeWhatsapp}
               alt="Ícone WhatsApp"
               width={24}
@@ -33,13 +32,12 @@ export default function Hero() {
 
         {/* Imagem ilustrativa */}
         <div className="w-full md:w-1/2 flex justify-center">
-          <Image
+          <img
             src={IMAGENS.tagVeloe}
             alt="Soluções e serviços da TAG Tecnologia"
             width={500}
             height={350}
             className="w-full max-w-md h-auto object-contain animate-fade-in"
-            priority
           />
         </div>
 
