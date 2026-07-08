@@ -5,13 +5,13 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
 
-  // Otimizações para imagens e desempenho
+  // Otimização de imagens para carregamento mais rápido
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [],
   },
 
-  // Cabeçalhos de segurança e cache (ajuda em conformidade e velocidade)
+  // Cabeçalhos de segurança exigidos pelas boas práticas do Google
   async headers() {
     return [
       {
@@ -38,7 +38,7 @@ const nextConfig = {
     ];
   },
 
-  // URLs amigáveis e sem extensão
+  // URLs limpas e amigáveis para melhor indexação
   trailingSlash: false,
 };
 
