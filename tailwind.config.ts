@@ -8,14 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      // Cores alinhadas com a marca e acessibilidade
+      // Paleta de cores definida para o projeto
       colors: {
         veloe: {
-          navy: "#1d1b84",       // Azul principal
-          "navy-dark": "#0f0e5c",// Azul escuro para hover
-          cyan: "#26d0e0",       // Azul claro / destaque
-          green: "#25d366",      // Verde WhatsApp
-          light: "#eef0f8",      // Fundo claro
+          navy: "#1d1b84",
+          "navy-dark": "#0f0e5c",
+          cyan: "#26d0e0",
+          green: "#25d366",
+          light: "#eef0f8",
           gray: {
             50: "#f8fafc",
             100: "#f1f5f9",
@@ -30,11 +30,11 @@ const config: Config = {
           },
         },
       },
-      // Fontes otimizadas para leitura e SEO
+      // Fonte legível e recomendada para acessibilidade
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "Arial", "sans-serif"],
       },
-      // Animações suaves
+      // Animações leves sem pesar o carregamento
       keyframes: {
         "fade-in": {
           "0%": { opacity: "0", transform: "translateY(8px)" },
