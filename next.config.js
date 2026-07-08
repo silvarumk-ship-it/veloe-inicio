@@ -9,6 +9,7 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
     remotePatterns: [],
+    unoptimized: true, // <-- ESSA LINHA NOVAAAA que resolve o erro
   },
 
   // Cabeçalhos de segurança exigidos pelas boas práticas do Google
