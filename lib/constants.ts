@@ -15,7 +15,7 @@ Barueri - SP, CEP 06455-030`
 };
 
 // --------------------------
-// CAMINHOS DAS IMAGENS
+// CAMINHOS DAS IMAGENS — FORMATO CORRETO PARA O NEXT.JS
 // --------------------------
 export const IMAGENS = {
   logoPrincipal: "/img-VEL-789452.png",
@@ -25,7 +25,7 @@ export const IMAGENS = {
 };
 
 // --------------------------
-// LINKS
+// LINKS — FORMATO FUNCIONAL
 // --------------------------
 export const LINKS = {
   politicaPrivacidade: "/politica-de-privacidade",
